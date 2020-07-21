@@ -1,7 +1,8 @@
 # OSIC-Pulmonary-Fibrosis-Progression
 ## Basic Overview 
 This is Our approch for the kaggle Competition for OSIC Pulmonary Fibrosis Progression
-
+### Team Member
+[Ankit Sinha](https://github.com/Ank221199) & [Ranjeet Dhumal](https://github.com/ranjeetds)
 
 ***The Link to the Compitition :*** https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/overview/description
 
@@ -35,5 +36,15 @@ Link to the dataset : https://www.kaggle.com/c/osic-pulmonary-fibrosis-progressi
 
 ### Rules of the competition 
 Follow the Guide line provided by the organizer of the competition
+https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/rules
 
+
+### About the Organizer
+COMPETITION TITLE: OSIC Pulmonary Fibrosis Progression
+
+COMPETITION SPONSOR: Open Source Imaging Consortium (OSIC)
+
+COMPETITION SPONSOR ADDRESS: 482 Century Lane, Suite 40, Holland, MI 49423
+
+COMPETITION WEBSITE: https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression
 
