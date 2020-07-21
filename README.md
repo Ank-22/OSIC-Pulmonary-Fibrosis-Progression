@@ -6,6 +6,15 @@ This is Our approch for the kaggle Competition for OSIC Pulmonary Fibrosis Progr
 
 ***The Link to the Compitition :*** https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/overview/description
 
+
+---
+## Deadline
+
+**30th September 2020**
+
+---
+
+
 ### Description
 
 Imagine one day, your breathing became consistently labored and shallow. Months later you were finally diagnosed with pulmonary fibrosis, a disorder with no known cause and no known cure, created by scarring of the lungs. If that happened to you, you would want to know your prognosis. That’s where a troubling disease becomes frightening for the patient: outcomes can range from long-term stability to rapid deterioration, but doctors aren’t easily able to tell where an individual may fall on that spectrum. Your help, and data science, may be able to aid in this prediction, which would dramatically help both patients and clinicians.
