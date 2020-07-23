@@ -43,6 +43,11 @@ train.csv
 
 Link to the dataset : https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/data
 
+### FVC (Forced Vital Capacity)
+FVC measurement shows the amount of air a person can forcefully and quickly exhale after taking a deep breath. It is defined as the recorded lung capacity in ml under the Data tab. The change in FVC over the course of weeks is used for predicting the patients' lung function decline.
+
+Even though the FVC predictions smaller than 1000 are clipped, the minimum value in training set is 827. The maximum FVC value in training set is 6399. The distribution is heavily tailed on the right end because some patients have extremely high FVC measurements. However, most of the patients are close to mean FVC.
+
 ### Rules of the competition 
 Follow the Guide line provided by the organizer of the competition
 https://www.kaggle.com/c/osic-pulmonary-fibrosis-progression/rules
