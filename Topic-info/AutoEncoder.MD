@@ -1,0 +1,2 @@
+# AutoEncoder
+``` This markdown will help you understand what AutoEncoder and provide you with the link of the referance, plus if possible then where and how to implement the AutoEncoder in your project & benifits of it``` 
