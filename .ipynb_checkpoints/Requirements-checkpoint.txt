@@ -1,0 +1,6 @@
+glob3
+pydicom
+seaborn
+pandas
+numpy
+os
