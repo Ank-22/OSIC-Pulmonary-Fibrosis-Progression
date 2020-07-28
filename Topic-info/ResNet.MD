@@ -62,3 +62,14 @@ Equation used when F(x) and x have a different dimensionality such as 32x32 and 
 The Skip Connections between layers add the outputs from previous layers to the outputs of stacked layers. This results in the ability to train much deeper networks than what was previously possible. The authors of the ResNet architecture test their network with 100 and 1,000 layers on the CIFAR-10 dataset. They test on the ImageNet dataset with 152 layers, which still has less parameters than the VGG network, another very popular Deep CNN architecture. An ensemble of deep residual networks achieved a 3.57% error rate on ImageNet which achieved 1st place in the ILSVRC 2015 classification competition.
 
 A similar approach to ResNets is known as “highway networks”. These networks also implement a skip connection, however, similar to an LSTM these skip connections are passed through parametric gates. These gates determine how much information passes through the skip connection. The authors note that when the gates approach being closed, the layers represent non-residual functions whereas the ResNet’s identity functions are never closed. Empirically, the authors note that the authors of the highway networks have not shown accuracy gains with networks as deep as they have shown with ResNets.
+
+
+The architecture they used to test the Skip Connections followed 2 heuristics inspired from the VGG network.
+
+1. If the output feature maps have the same resolution e.g. 32 x 32 → 32 x 32, then the filter map depth remains the same
+2. If the output feature map size is halved e.g. 32 x 32 → 16 x 16, then the filter map depth is doubled.
+
+Overall, the design of a 34-layer residual network is illustrated in the image below:
+
+![Images/Untitled%205.png](Images/Untitled%205.png)
+
