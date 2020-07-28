@@ -74,3 +74,7 @@ Overall, the design of a 34-layer residual network is illustrated in the image b
 ![Images/Untitled%205.png](Images/Untitled%205.png)
 
 In Conclusion, the Skip Connection is a very interesting extension to Deep Convolutional Networks that have empirically shown to increase performance in ImageNet classification. These layers can be used in other tasks requiring Deep networks as well such as Localization, Semantic Segmentation, Generative Adversarial Networks, Super-Resolution, and others. Residual Networks are different from LSTMs which gate previous information such that not all information passes through. Additionally, the Skip Connections shown in this article are essentially arranged in 2-layer blocks, they do not use the input from same layer 3 to layer 8. Residual Networks are more similar to Attention Mechanisms in that they model the internal state of the network opposed to the inputs.
+
+### Variants of residual block
+
+![Images/Untitled%206.png](Images/Untitled%206.png)
