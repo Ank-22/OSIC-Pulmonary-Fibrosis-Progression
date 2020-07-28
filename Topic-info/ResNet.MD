@@ -53,3 +53,12 @@ The failure of the 56-layer CNN could be blamed on the optimization function, in
 ![Images/Untitled%203.png](Images/Untitled%203.png)
 
 The picture above is the most important thing to learn from this article. For developers looking to quickly implement this and test it out, the most important modification to understand is the ‘Skip Connection’, identity mapping. This identity mapping does not have any parameters and is just there to add the output from the previous layer to the layer ahead. However, sometimes x and F(x) will not have the same dimension. Recall that a convolution operation typically shrinks the spatial resolution of an image, e.g. a 3x3 convolution on a 32 x 32 image results in a 30 x 30 image. The identity mapping is multiplied by a linear projection W to expand the channels of shortcut to match the residual. This allows for the input x and F(x) to be combined as input to the next layer.
+
+
+![Images/Untitled%204.png](Images/Untitled%204.png)
+
+Equation used when F(x) and x have a different dimensionality such as 32x32 and 30x30. This Ws term can be implemented with 1x1 convolutions, this introduces additional parameters to the model.
+
+The Skip Connections between layers add the outputs from previous layers to the outputs of stacked layers. This results in the ability to train much deeper networks than what was previously possible. The authors of the ResNet architecture test their network with 100 and 1,000 layers on the CIFAR-10 dataset. They test on the ImageNet dataset with 152 layers, which still has less parameters than the VGG network, another very popular Deep CNN architecture. An ensemble of deep residual networks achieved a 3.57% error rate on ImageNet which achieved 1st place in the ILSVRC 2015 classification competition.
+
+A similar approach to ResNets is known as “highway networks”. These networks also implement a skip connection, however, similar to an LSTM these skip connections are passed through parametric gates. These gates determine how much information passes through the skip connection. The authors note that when the gates approach being closed, the layers represent non-residual functions whereas the ResNet’s identity functions are never closed. Empirically, the authors note that the authors of the highway networks have not shown accuracy gains with networks as deep as they have shown with ResNets.
