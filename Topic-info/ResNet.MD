@@ -9,3 +9,9 @@ AlexNet, the winner of ImageNet 2012 and the model that apparently kick started 
 ![Images/Untitled.png](Images/Untitled.png)
 
 However, increasing network depth does not work by simply stacking layers together. Deep networks are hard to train because of the notorious vanishing gradient problem — as the gradient is back-propagated to earlier layers, repeated multiplication may make the gradient extremely small. As a result, as the network goes deeper, its performance gets saturated or even starts degrading rapidly.
+
+### Skip Connection — The Strength of ResNet
+
+ResNet first introduced the concept of skip connection. The diagram below illustrates skip connection. The figure on the left is stacking convolution layers together one after the other. On the right we still stack convolution layers as before but we now also add the original input to the output of the convolution block. This is called skip connection
+
+![Images/Untitled%201.png](Images/Untitled%201.png)
