@@ -78,3 +78,14 @@ In Conclusion, the Skip Connection is a very interesting extension to Deep Convo
 ### Variants of residual block
 
 ![Images/Untitled%206.png](Images/Untitled%206.png)
+
+### References:
+
+- [1] Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton. ImageNet Classification with Deep Convolutional Neural Networks. 2012.
+- [2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. Deep Residual Learning for Image Recognition. 2015.
+- [3] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. Identity Mappings in Deep Residual Networks. 2016.
+- [4] Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition. 2014.
+- [https://arxiv.org/pdf/1512.03385.pdf](https://arxiv.org/pdf/1512.03385.pdf)
+- [https://en.wikipedia.org/wiki/Residual_neural_network](https://en.wikipedia.org/wiki/Residual_neural_network)
+- [https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035)
+- [https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
