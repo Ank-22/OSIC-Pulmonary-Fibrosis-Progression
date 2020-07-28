@@ -15,3 +15,11 @@ However, increasing network depth does not work by simply stacking layers togeth
 ResNet first introduced the concept of skip connection. The diagram below illustrates skip connection. The figure on the left is stacking convolution layers together one after the other. On the right we still stack convolution layers as before but we now also add the original input to the output of the convolution block. This is called skip connection
 
 ![Images/Untitled%201.png](Images/Untitled%201.png)
+
+
+### Why do Skip Connections work?
+
+1. They mitigate the problem of vanishing gradient by allowing this alternate shortcut path for gradient to flow through
+2. They allow the model to learn an identity function which ensures that the higher layer will perform at least as good as the lower layer, and not worse
+
+nfact since ResNet skip connections are used in a lot more model architectures like the Fully Convolutional Network (FCN) and U-Net. They are used to flow information from earlier layers in the model to later layers. In these architectures they are used to pass information from the downsampling layers to the upsampling layers.
